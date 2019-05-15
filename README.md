@@ -51,9 +51,7 @@ Although you can go and explore the content and walkthrough by yourself, the ric
   <tr>
     <td nowrap><a href="https://azure.microsoft.com/en-us/services/active-directory-b2c/">Active Directory</a></td>
   </tr>
-  <tr>
-    <td nowrap><a href="https://www.xamarin.com/forms/">Xamarin.Forms</a></td>
-  </tr>
+  
 </table>
 
 ##### Build Status
