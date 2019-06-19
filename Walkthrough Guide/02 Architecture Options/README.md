@@ -38,15 +38,6 @@ The most significant difference is how we scale. With Azure Functions, we do not
 We will be developing a version of the backend that is entirely Azure Functions based on the future. 
 
 ---
-## Micro-Services
-![Azure Functions Architecture](Assets/MicroServices.png)
-
-Mr Michael Sivers is currently investigating adding a Micro-Services architecture as a branch. 
-
-If you're interested in helping, then please reach out to us! 
-
-Learn more about [Service Fabric](https://azure.microsoft.com/en-us/services/service-fabric/)
-
 ## Connecting to remote resources securely
 ExpressRoute is an Azure service that lets you create private connections between Microsoft datacenters and infrastructure that’s on your premises or in a colocation facility. ExpressRoute connections do not go over the public Internet, instead ExpressRoute uses dedicated connectivity from your resources to Azure. This provides reliability and speeds guarantees with lower latencies than typical connections over the Internet. Microsoft Azure ExpressRoute lets you extend your on-premises networks into the Microsoft cloud over a private connection facilitated by a connectivity provider. Connectivity can be from an any-to-any (IP VPN) network, a point-to-point Ethernet network, or a virtual cross-connection through a connectivity provider at a co-location facility.
 
@@ -72,4 +63,4 @@ A Site-to-Site VPN gateway connection is used to connect your on-premises networ
 ![Site to Site Connectivity Model](Assets/SiteToSiteConnectivityModel.png)
  
 # Next Steps 
-[Web API](../03%20Web%20API/README.md)
+[Monitoring Serverless](../03%20Monitoring%20Serverless/README.md)
