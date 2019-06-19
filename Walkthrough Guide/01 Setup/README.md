@@ -21,14 +21,6 @@ Please bring your own **Windows or Mac** laptop. To participate in this workshop
 - [Azure CLI 2.0](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
 - [Terraform](https://www.terraform.io/intro/getting-started/install.html)
 
-### Optional
-
-You can completely follow the workshop without compiling the Mobile App on your own, as the full content is focused on architecting and creating Backends. However, if you already are a Xamarin Developer or always wanted to get started, install the Xamarin Tooling as well:
-
-- [Visual Studio for Windows or Mac](https://www.visualstudio.com/) (Community Version or higher)
-  - [Xamarin Tooling](https://developer.xamarin.com/guides/cross-platform/getting_started/installation/windows/)
-  - Android SDK 8.1 Oreo (API Level 27)
-  - iOS SDK 11
 
 ## Prepare your environment
 
@@ -81,27 +73,3 @@ Once the extensions has been installed successful and Visual Studio Code has bee
 Now you are good to go! Open the recently downloaded and unzipped Workshop folder in Visual Studio Code by clicking ***File -> Open...*** in the menu and select the full folder. The result should look similar to this:
 
 ![Screenshot of Visual Studio Code opened the workshop folder](Assets/VSCodeOpenWSFolder.png)
-
-### Mobile Development with Xamarin (optional)
-
-If you want to compile the Xamarin Application on you own, you will need to install the Xamarin tooling. You don't need to have this, to follow the workshop but if you already are a Xamarin Developer or always wanted to get started, give it a go! The setup of a Xamarin development environment can get a little bit tricky and time consuming as it has dependencies on many SDKs and technologies from different companies.
-
-#### Windows
-
-When working in Windows, Visual Studio will be the best IDE for you! You can check internally if you have a license for the paid versions or even go with the free Community Edition. Both will work for you.
-
-Please [follow this guide](https://developer.xamarin.com/guides/cross-platform/getting_started/installation/windows/) to install the Xamarin Tooling for Visual Studio on Windows and make sure, you have at least Android API Level 16 and an Android Emulator installed.
-
-When working on Windows, you won't be able to build iOS solutions unless you connect your machine with a Mac in your network. To follow this workshop, an iOS configuration is not mandatory! [Follow this guide](https://developer.xamarin.com/guides/ios/getting_started/installation/windows/) if you want to connect to a Mac Build Host anyway.
-
-#### Mac
-
-When using a Mac, the best Xamarin Tooling provides Visual Studio for Mac. Xamarin should be installed during the installation of Visual Studio. Please [follow this guide](https://docs.microsoft.com/en-us/visualstudio/mac/installation) to make sure you don't miss anything.
-
-If you want to build iOS solutions, make sure that XCode is also installed on the same device!
-
-#### Test your installation
-
-To make sure your environment works as expected and is able to compile and execute Xamarin apps, your can simply open the [`ContosoMaintenance.sln`](/ContosoMaintenance.sln) solution with Visual Studio and select the `ContosoFieldService.iOS` or `ContosoFieldService.Droid` project as your Startup project. If the application gets compiled and the app can be started, you are good to go.
-
-![Visual Studio Running Xamarin iOS and Android App](Assets/VSMacRunningiOSandAndroid.png)
