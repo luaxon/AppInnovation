@@ -3,6 +3,7 @@
 # Application Insights - Hands-on Lab Script - part 1
 
 Mark Harrison : 6 Aug 2018
+Michelle Azzopardi : 19th June 2019 - updated
 
 ![](Images/AppInsights.png)
 
@@ -17,35 +18,15 @@ Mark Harrison : 6 Aug 2018
 
 ### Overview
 
-Application Insights is an extensible Application Performance Management (APM) service for web developers on multiple platforms. Use it to monitor your live web application. It will automatically detect performance anomalies. It includes powerful analytics tools to help  diagnose issues and to understand what users actually do with an app. It's designed to help continuously improve performance and usability.
+Application Insights is an extensible Application Performance Management (APM) service for web developers on multiple platforms. Use it to monitor your live web application. It will automatically detect performance anomalies. It includes powerful analytics tools to help you diagnose issues and to understand what users actually do with your app. It's designed to help you continuously improve performance and usability. It works for apps on a wide variety of platforms including .NET, Node.js and Java EE, hosted on-premises, hybrid, or any public cloud. It integrates with your DevOps process, and has connection points to a variety of development tools. It can monitor and analyze telemetry from mobile apps by integrating with Visual Studio App Center.
 
-### Create Resource Group
+### How does Application Insights work?
+You install a small instrumentation package in your application, and set up an Application Insights resource in the Microsoft Azure portal. The instrumentation monitors your app and sends telemetry data to the portal. (The application can run anywhere - it doesn't have to be hosted in Azure.)
 
-All Azure resources must reside with an Azure resource group.
+You can instrument not only the web service application, but also any background components, and the JavaScript in the web pages themselves.
 
-- Invoke the following:
-  - Amend the resource group name to that required - and in the subsequent instructions
-  - Amend the location to that require
 
-```text
 
-az group create --name App-rg --location northeurope
-az configure --defaults group=App-rg
-
-```
-
-### Create WebApp resource
-
-- Invoke the following
-  - Amend the WebApp name and plan to that required.
-
-```text
-$webappname = "MarkHarrisonApp"
-$planname = "MarkHarrisonPlan"
-
-az appservice plan create --name $planname  --sku F1
-az webapp create --name $webappname  --plan $planname
-```
 
 ### Create AppInsights resource
 
