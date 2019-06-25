@@ -46,9 +46,6 @@ Although you can go and explore the content and walkthrough by yourself, the ric
     <td nowrap><a href="https://dev.azure.com/">Azure DevOps</a></td>
   </tr>
   <tr>
-    <td nowrap><a href="https://appcenter.ms/">App Center</a></td>
-  </tr>
-  <tr>
     <td nowrap><a href="https://azure.microsoft.com/en-us/services/active-directory-b2c/">Active Directory</a></td>
   </tr>
   
@@ -77,7 +74,7 @@ You can find a walkthrough guide for the project that outlines how you too can b
 ### [7. API Management](Walkthrough%20Guide/07%20API%20Management)
 ### [8. Authentication](Walkthrough%20Guide/08%20Authentication)
 ### [9. Securing the solution](Walkthrough%20Guide/08%20Authentication)
-### [12. Analytics](Walkthrough%20Guide/12%20Anayltics/README.md)
+### [12. Analytics](Walkthrough%20Guide/03%20Anayltics/README.md)
 ### [20. Search](Walkthrough%20Guide/20%20Search)
 
 &nbsp;
@@ -87,7 +84,6 @@ You can find a walkthrough guide for the project that outlines how you too can b
 **Where to find help**
 
 * Create GitHub issues and we'll respond as quickly as possible 
-* Ping us on [Slack](https://mobilecloudworkshop.slack.com)
 
 &nbsp;
 
@@ -107,6 +103,8 @@ You can find a walkthrough guide for the project that outlines how you too can b
 - **Michael Sivers** ([GitHub](https://github.com/msivers))
 - **Simona Tarantola** ([LinkedIn](https://www.linkedin.com/in/simona-tarantola-a654917/))
 - **Jim Paine** ([GitHub](https://github.com/JimPaine))
+- **Michelle Azzopardi** ([GitHub](https://github.com/cloudmichelle))
+- **Luke Axon** ([GitHub](https://github.com/luaxon))
 
 ## Contributing
 
