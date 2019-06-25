@@ -70,7 +70,7 @@ You can find a walkthrough guide for the project that outlines how you too can b
 
 ### [1. Setup](Walkthrough%20Guide/01%20Setup/)
 ### [2. Architecture Options](Walkthrough%20Guide/02%20Architecture%20Options)
-### [3. Monitoring Serverless](Walkthrough%20Guide/Monitoring%20Serverless)
+### [3. Monitoring Serverless](Walkthrough%20Guide/03%20Monitoring%20Serverless)
 ### [4. Web API & App Services](Walkthrough%20Guide/04%20Web%20API)
 ### [5. Data Storage](Walkthrough%20Guide/04%20Data%20Storage)
 ### [6. Functions & Cognitive Services](Walkthrough%20Guide/06%20Functions%20and%20Cognitive%20Services)
