@@ -78,7 +78,7 @@ You can find a walkthrough guide for the project that outlines how you too can b
 ### [8. Authentication](Walkthrough%20Guide/08%20Authentication)
 ### [9. Securing the solution](Walkthrough%20Guide/08%20Authentication)
 ### [12. Analytics](Walkthrough%20Guide/12%20Anayltics/README.md)
-### [20. Search](Walkthrough%20Guide/05%20Search)
+### [20. Search](Walkthrough%20Guide/20%20Search)
 
 &nbsp;
 
