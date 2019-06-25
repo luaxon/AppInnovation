@@ -104,7 +104,7 @@ You can find a walkthrough guide for the project that outlines how you too can b
 - **Simona Tarantola** ([LinkedIn](https://www.linkedin.com/in/simona-tarantola-a654917/))
 - **Jim Paine** ([GitHub](https://github.com/JimPaine))
 - **Michelle Azzopardi** ([GitHub](https://github.com/cloudmichelle))
-- **Luke Axon** ([GitHub](https://github.com/luaxon)) **Email** ([Email](luke.axon@microsoft.com))
+- **Luke Axon** ([GitHub](https://github.com/luaxon)) **Email:** luke.axon@microsoft.com
 
 ## Contributing
 
