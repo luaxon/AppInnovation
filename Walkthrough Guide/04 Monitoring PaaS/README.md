@@ -84,6 +84,6 @@ In the configuration specify:
 [Home](appinsights-0.md) | [Next](appinsights-2.md)
 
 ---
-# Next Steps 
-[Web API](../04%20Web%20API/README.md)
+### [Next Step: Data Storage](../../05%20Data%20Storage/README.md)
+
 
