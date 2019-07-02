@@ -42,34 +42,39 @@ An App Service, is just the logical instance of an application, so it has to run
 
 In App Service, an app runs in an App Service plan. The App Service plan defines a set of compute resources for a web app to run. These compute resources are analogous to the server farm in conventional web hosting. One or more apps can be configured to run on the same computing resources (or in the same App Service plan). When you create an App Service plan in a certain region (for example, West Europe), a set of compute resources is created for that plan in that region. Whatever apps you put into this App Service plan run on these compute resources as defined by your App Service plan.
 
-To create a new App Service Plan for our Web App, click the ***App Service Plan/Location*** button in the Web App Create wizard **AFTER YOU HAVE SELECTED AN OS** and click on the ***Create new*** button.
+A new App Service Plan for our Web App,  is automatically generated in the ***App Service Plan*** field in the Web App Create wizard **AFTER YOU HAVE SELECTED A REGION** and the App Service Plan is created in the same region as your webapp or you can completely rename your App Service Plan and hit the ***Create new*** button.
 
 ![Create new App Service Plan](Assets/CreateNewAppServicePlan2.png)
 
 Fill in the following values:
 
 - **App Service plan:** `myawesomestartupplan` (or similar)
-- **Location:** *Choose a location near your customers*
-- **Pricing tier:** B1
+- **SKU and size:** B1
 
 Creating an App Service Plan is easy, but we have to consider where our users are? We want our services to be running as close to our users as possible as this dramatically increases performance. We also need to consider how much Compute resources we think we'll need to meet demand.
 
-Clicking ***Pricing Tier***, shows all the different options we have (it's a lot!). I won't list what their differences are as their listed in the portal, but keep it mind, with the cloud we don't need to default to over-provisioning. We can scale up later if we have to! For this workshop, a B1 Basic site will be more than enough to run this project. More complex development projects should use something in the Standard range of pricing plans. Production apps should be set up in Standard or Premium pricing plans.
+Clicking ***Sku and size***, shows all the different options we have (it's a lot!). I won't list what their differences are as their listed in the portal, but keep it mind, with the cloud we don't need to default to over-provisioning. We can scale up later if we have to! For this workshop, a B1 Basic site will be more than enough to run this project. More complex development projects should use something in the Standard range of pricing plans. Production apps should be set up in Standard or Premium pricing plans.  Click ***Apply*** after you have selected the right plan.
 
-![Select App Service Plan Pricing Tier](Assets/SelectAppServicePlanTier.png)
+![Select App Service Plan Sku and size](Assets/SelectAppServicePlanTier.png)
 
-The pricing tier and with it the size of your App Service can be changed later, when you need to scale-up the service. Once you have configured your app service plan, click ***Ok***.
+The Sku and size tier and with it the size of your App Service can be changed later, when you need to scale-up the service. Once you have configured your app service plan, click ***Next Monitoring***.
 
 After you configured everything, the App Service Plan configuration should now look like this:
 
-- **App name:** `myawesomestartupapi` (or similar)
+- **Subscription:**  Select the right subscription you will deploy your web app to
 - **Resource group:** *choose the one you created earlier*
-- **OS:** Windows, Linus or Docker
-- **App Service plan/Location:** *choose the one you created earlier*
-- **Application Insights:** On
-- **Application Insights Location:** *choose the closest one*
+- **App name:** `myawesomestartupapi` (or similar)
+- **Publish:** Code / Docker Image
+- **Runtime stack:** Choose the correct version for your runtime stack
+- **Operating System:** Windows / Linux
+- **App Service plan:** *choose the right plan as shown earlier*
+- **Sku and size:** choose the Basic B1 sku under the Dev/Test Tier
 
-With all the configuration options set, hit "Create" and hold tight. Once the deployment has finished, we should be able to navigate to our app through the browser and see a generic Azure landing page. The deployment of the new service can take a few minutes, but you can watch its progress in the "Bell" notification area in the toolbar. 
+We are not done yet.  Next is Monitoring, Choose the automatically generated App Insights, or create new to select a different region.
+- **Enable Application Insights:** Yes
+- **Application Insights Location:** *choose the closest one, or same region if you decided to create a new one*
+
+With all the configuration options set, hit "Review and Create" and review all the configuration settings for your webapp.  If you are happy hit "Review and Create" and hold tight. Once the deployment has finished, we should be able to navigate to our app through the browser and see a generic Azure landing page. The deployment of the new service can take a few minutes, but you can watch its progress in the "Bell" notification area in the toolbar. 
 
 Because my app name was: "myawesomestartupapi", the unique URL would be: `https://myawesomestartupapi.azurewebsites.net`. You should see something similar to the image below, when browsing it.
 
@@ -153,7 +158,7 @@ Add the settings in the format `Settings__Key` (two underscores) and take the va
 
 ## Additional Resouces
 
-- [Azure App Services Tipps and Tricks](TIPPS-AND-TRICKS.md)
+- [Azure App Services Tips and Tricks](TIPS-AND-TRICKS.md)
 
 &nbsp;
 
