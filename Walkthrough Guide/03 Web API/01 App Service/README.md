@@ -2,7 +2,7 @@
 
 # App Service
 
-Azure App Service is Microsoft’s fully managed, highly scalable platform for hosting web, mobile and API apps built using .NET, Java, Ruby, Node.js, PHP, and Python or Docker containers.
+Azure App Service is Microsoft’s highly scalable, self-patching platform for hosting web, mobile and API apps built using .NET, Java, Ruby, Node.js, PHP, and Python or Docker containers.
 
 App Service is fully managed and allows us to set the maximum number of instances on which we want to run our backend app on. Microsoft will then manage the scaling and load balancing across multiple instances to ensure your app perform well under heavy load. Microsoft manages the underlying compute infrastructure required to run our code, as well as patching and updating the OS and Frameworks when required.
 
@@ -158,7 +158,8 @@ Add the settings in the format `Settings__Key` (two underscores) and take the va
 &nbsp;
 
 ---
-### [Next Step: Data Storage](../../04%20Data%20Storage/README.md)
+# Next Steps 
+[Monitoring PaaS](../03%20Monitoring%20PaaS/README.md)
 ---
 
 &nbsp;
