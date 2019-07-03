@@ -63,4 +63,4 @@ A Site-to-Site VPN gateway connection is used to connect your on-premises networ
 ![Site to Site Connectivity Model](Assets/SiteToSiteConnectivityModel.png)
  
 # Next Steps 
-[Web API](../03%20Web%20API/README.md)
+[Monitoring](Walkthrough%20Guide/03%20Monitoring%20PaaS)

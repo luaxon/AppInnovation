@@ -266,7 +266,7 @@ And voilà, here it is. The API replaces the original name by a GUID ([View in p
 &nbsp;
 
 ---
-### [Next Step: Functions and Cognitive Services](../06%20Functions%20and%20Cognitive%20Services)
+### [Next Step: Azure Search](Walkthrough%20Guide/06%20Search)
 ---
 
 &nbsp;

@@ -42,4 +42,4 @@ When it comes to deploying our applications to the infrastructure that we will c
 
 You don't want to work with Docker containers? Fine, but then you have to compile the code and publish it to the Azure Services on your own. No worries, we got you covered. You will find a detailed step-by-step guide in the next section. 
 
-### [Azure App Services](01%20App%20Service/)
+### [Data Storage](Walkthrough%20Guide/05%20Data%20Storage)
