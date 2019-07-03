@@ -1,7 +1,5 @@
 ![Banner](Resources/WelcomeBanner.png)
 
-## <img src="Resources/Design/Design%20Board%20Final.png">
-
 # App Innovation Workshop
 
 Welcome to the Microsoft App Innovation Workshop. We've created this workshop to showcase the speed and ease at which you can leverage Microsoft's cloud platform to build data-driven intelligent apps. The workshop will give you insights and **hands-on labs** on how to leverage innovative scalable Cloud Backend Services for your applications.
@@ -50,12 +48,6 @@ Although you can go and explore the content and walkthrough by yourself, the ric
   </tr>
   
 </table>
-
-##### Build Status
-
-| iOS  | Android |
-|:---:|:---:|
-| [![Build status](https://build.appcenter.ms/v0.1/apps/b9f623cd-4f7d-46cb-9402-c53eeda66986/branches/master/badge)](https://appcenter.ms) | [![Build status](https://build.appcenter.ms/v0.1/apps/038d4f0c-37fc-4aa3-88c1-14ffc3d8d92a/branches/master/badge)](https://appcenter.ms) |
 
 &nbsp;
 
