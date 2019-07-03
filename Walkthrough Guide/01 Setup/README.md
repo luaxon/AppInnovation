@@ -75,4 +75,4 @@ Now you are good to go! Open the recently downloaded and unzipped Workshop folde
 ![Screenshot of Visual Studio Code opened the workshop folder](Assets/VSCodeOpenWSFolder.png)
 
 # Next Steps 
-[Architecture Options](./02%20Architecture%20Options)
+[Architecture Options](.././02%20Architecture%20Options)
