@@ -84,6 +84,6 @@ In the configuration specify:
 [Home](appinsights-0.md) | [Next](appinsights-2.md)
 
 ---
-### [Next Step: App Service Plans - API and Web Apps](Walkthrough%20Guide/04%20Web%20API)
+### [Next Step: App Service Plans - API and Web Apps](.././04%20Web%20API)
 
 
