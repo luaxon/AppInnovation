@@ -59,7 +59,7 @@ You can find a walkthrough guide for the project that outlines how you too can b
 
 ### [1. Setup](Walkthrough%20Guide/01%20Setup/)
 ### [2. Architecture Options](Walkthrough%20Guide/02%20Architecture%20Options)
-### [3. Web API & App Services](Walkthrough%20Guide/04%20Web%20API)
+### [3. App Service Plans - API and Web Apps](Walkthrough%20Guide/03%20Web%20API)
 ### [4. Monitoring Serverless](Walkthrough%20Guide/03%20Monitoring%20Serverless)
 ### [5. Data Storage](Walkthrough%20Guide/05%20Data%20Storage)
 ### [6. Functions & Cognitive Services](Walkthrough%20Guide/06%20Functions%20and%20Cognitive%20Services)
@@ -68,14 +68,6 @@ You can find a walkthrough guide for the project that outlines how you too can b
 ### [9. Securing the solution](Walkthrough%20Guide/08%20Authentication)
 ### [12. Analytics](Walkthrough%20Guide/03%20Anayltics/README.md)
 ### [20. Search](Walkthrough%20Guide/20%20Search)
-
-&nbsp;
-
-## Support
-
-**Where to find help**
-
-* Create GitHub issues and we'll respond as quickly as possible 
 
 &nbsp;
 
@@ -96,7 +88,7 @@ You can find a walkthrough guide for the project that outlines how you too can b
 - **Simona Tarantola** ([LinkedIn](https://www.linkedin.com/in/simona-tarantola-a654917/))
 - **Jim Paine** ([GitHub](https://github.com/JimPaine))
 - **Michelle Azzopardi** ([GitHub](https://github.com/cloudmichelle))  **Email:** michelle.azzopardi@microsoft.com
-- **Luke Axon** ([GitHub](https://github.com/luaxon)) **Email:** luke.axon@microsoft.com **LinkedIn** ([LinkedIn](https://www.linkedin.com/in/luke-axon-57056653))
+- **Luke Axon** ([GitHub](https://github.com/luaxon)) **Email:** luke.axon@microsoft.com **LinkedIn:** ([LinkedIn](https://www.linkedin.com/in/luke-axon-57056653))
 
 ## Contributing
 
