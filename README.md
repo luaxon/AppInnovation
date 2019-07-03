@@ -1,6 +1,6 @@
 ![Banner](Resources/WelcomeBanner.png)
 
-<img src="Resources/Design/Design%20Board%20Final.png">
+## <img src="Resources/Design/Design%20Board%20Final.png">
 
 # App Innovation Workshop
 
@@ -10,7 +10,7 @@ Welcome to the Microsoft App Innovation Workshop. We've created this workshop to
 
 Although you can go and explore the content and walkthrough by yourself, the richer learning experience is attending a session led by us. So let's see, if we can schedule something!
 
-[Get in contact](https://mobilecloudworkshop.slack.com)
+[Get in contact](https://azureuklabevents.azurewebsites.net/)
 
 &nbsp;
 
@@ -104,7 +104,7 @@ You can find a walkthrough guide for the project that outlines how you too can b
 - **Simona Tarantola** ([LinkedIn](https://www.linkedin.com/in/simona-tarantola-a654917/))
 - **Jim Paine** ([GitHub](https://github.com/JimPaine))
 - **Michelle Azzopardi** ([GitHub](https://github.com/cloudmichelle))  **Email:** michelle.azzopardi@microsoft.com
-- **Luke Axon** ([GitHub](https://github.com/luaxon)) **Email:** luke.axon@microsoft.com
+- **Luke Axon** ([GitHub](https://github.com/luaxon)) **Email:** luke.axon@microsoft.com **LinkedIn** ([LinkedIn](https://www.linkedin.com/in/luke-axon-57056653))
 
 ## Contributing
 
