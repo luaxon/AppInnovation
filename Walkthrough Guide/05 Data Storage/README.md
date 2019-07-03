@@ -266,7 +266,7 @@ And voilà, here it is. The API replaces the original name by a GUID ([View in p
 &nbsp;
 
 ---
-### [Next Step: Azure Search](Walkthrough%20Guide/06%20Search)
+### [Next Step: Azure Search](.././06%20Search)
 ---
 
 &nbsp;

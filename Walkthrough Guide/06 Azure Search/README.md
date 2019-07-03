@@ -66,7 +66,7 @@ We can now run the indexer for the first time. Once its completed, navigate back
 ![Azure Search Explorer](Assets/SearchExplorer.png)
 
 # Next Steps 
-[Functions & Cognitive Services](Walkthrough%20Guide/07%20Functions%20and%20Cognitive%20Services)
+[Functions & Cognitive Services](.././07%20Functions%20and%20Cognitive%20Services)
 
 
 
