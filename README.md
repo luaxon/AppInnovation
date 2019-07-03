@@ -59,15 +59,13 @@ You can find a walkthrough guide for the project that outlines how you too can b
 
 ### [1. Setup](Walkthrough%20Guide/01%20Setup/)
 ### [2. Architecture Options](Walkthrough%20Guide/02%20Architecture%20Options)
-### [3. App Service Plans - API and Web Apps](Walkthrough%20Guide/03%20Web%20API)
-### [4. Monitoring Serverless](Walkthrough%20Guide/04%20Monitoring%20PaaS)
+### [3. Monitoring Applications](Walkthrough%20Guide/03%20Monitoring%20PaaS)
+### [4. App Service Plans - API and Web Apps](Walkthrough%20Guide/04%20Web%20API)
 ### [5. Data Storage](Walkthrough%20Guide/05%20Data%20Storage)
-### [6. Functions & Cognitive Services](Walkthrough%20Guide/06%20Functions%20and%20Cognitive%20Services)
-### [7. API Management](Walkthrough%20Guide/07%20API%20Management)
-### [8. Authentication](Walkthrough%20Guide/08%20Authentication)
-### [9. Securing the solution](Walkthrough%20Guide/08%20Authentication)
-### [12. Analytics](Walkthrough%20Guide/03%20Anayltics/README.md)
-### [20. Search](Walkthrough%20Guide/20%20Search)
+### [6. Search](Walkthrough%20Guide/06%20Search)
+### [7. Functions & Cognitive Services](Walkthrough%20Guide/07%20Functions%20and%20Cognitive%20Services)
+### [8. API Management](Walkthrough%20Guide/08%20API%20Management)
+
 
 &nbsp;
 
