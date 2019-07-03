@@ -73,3 +73,6 @@ Once the extensions has been installed successful and Visual Studio Code has bee
 Now you are good to go! Open the recently downloaded and unzipped Workshop folder in Visual Studio Code by clicking ***File -> Open...*** in the menu and select the full folder. The result should look similar to this:
 
 ![Screenshot of Visual Studio Code opened the workshop folder](Assets/VSCodeOpenWSFolder.png)
+
+# Next Steps 
+[Architecture Options](Walkthrough%20Guide/02%20Architecture%20Options)
