@@ -62,7 +62,7 @@ You can find a walkthrough guide for the project that outlines how you too can b
 ### [3. Monitoring Applications](Walkthrough%20Guide/03%20Monitoring%20PaaS)
 ### [4. App Service Plans - API and Web Apps](Walkthrough%20Guide/04%20Web%20API)
 ### [5. Data Storage](Walkthrough%20Guide/05%20Data%20Storage)
-### [6. Search](Walkthrough%20Guide/06%20Search)
+### [6. Search](Walkthrough%20Guide/06%20Azure%20Search)
 ### [7. Functions & Cognitive Services](Walkthrough%20Guide/07%20Functions%20and%20Cognitive%20Services)
 ### [8. API Management](Walkthrough%20Guide/08%20API%20Management)
 
