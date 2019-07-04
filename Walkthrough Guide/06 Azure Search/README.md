@@ -15,7 +15,7 @@ Select Azure Search and click 'Create'.
 
 
 ![Azure Search Configure](Assets/ConfigureSearchService.png)
-You'll have a few options for pricing, but for this demo, we should have plenty of capacity left over if we use the ***Free tier***. Once you've deployed Azure Search, go to the resource 
+You'll have a few options for pricing, but for this demo, we should have plenty of capacity left over if we use the ***Free tier***. Hit the ***Review + Create*** button.  Once you've deployed Azure Search, go to the resource 
 
 ![Azure Search Overview](Assets/SearchOverview.png)
 
@@ -31,8 +31,7 @@ To do this, click the "Import Data" button in the top toolbar.
 ![Azure Search Connect To Data](Assets/ConnectToDataDefault.png)
 We already have our database deployed, so we can select "Cosmos DB" and then click "Select an account". 
 
-![Azure Search New Data Source](Assets/NewDataSourceFilledIn.png)
-Once you've selected your Cosmos DB account, you should be able to use the drop-downs to select which database and collections you wish to import from. We'll be picking "Jobs". 
+Once you've selected your Cosmos DB account, you should be able to use the drop-downs to select which database and collections you wish to import from. We'll be picking "Jobs". Skip the Add Cognitive Search (optional) and go to Customise Target Index Section.
 
 ![Azure Search Create Index](Assets/CreatingJobsIndex.png)
 
