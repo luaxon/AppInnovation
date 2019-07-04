@@ -80,6 +80,6 @@ In the configuration specify:
 
 ---
 # Next Steps 
-[Data Storage](../../05%20Data%20Storage)
+[Data Storage](../05%20Data%20Storage)
 
 
