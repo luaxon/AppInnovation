@@ -88,6 +88,7 @@ Click on the "indexers" item within the overview blade.
 ![Azure Search Indexers List](Assets/SelectIndexersTab.png)
 
 
+
 ![Azure Search Run Indexer](Assets/RunIndex.png)
 
 We can now run the indexer for the first time. Once its completed, navigate back to the Azure Search Overview and click on "Indexes". We can now confirm if the search service is working as expected. 
