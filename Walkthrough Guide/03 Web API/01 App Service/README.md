@@ -42,14 +42,14 @@ An App Service, is just the logical instance of an application, so it has to run
 
 In App Service, an app runs in an App Service plan. The App Service plan defines a set of compute resources for a web app to run. These compute resources are analogous to the server farm in conventional web hosting. One or more apps can be configured to run on the same computing resources (or in the same App Service plan). When you create an App Service plan in a certain region (for example, West Europe), a set of compute resources is created for that plan in that region. Whatever apps you put into this App Service plan run on these compute resources as defined by your App Service plan. Each App Service plan defines:
 
-Region (West US, East US, etc.)
-Number of VM instances
-Size of VM instances (Small, Medium, Large)
-Pricing tier (Free, Shared, Basic, Standard, Premium, PremiumV2, Isolated, Consumption)
+- Region (West US, East US, etc.)
+- Number of VM instances
+- Size of VM instances (Small, Medium, Large)
+- Pricing tier (Free, Shared, Basic, Standard, Premium, PremiumV2, Isolated, Consumption)
 
 A new App Service Plan for our Web App,  is automatically generated in the ***App Service Plan*** field in the Web App Create wizard **AFTER YOU HAVE SELECTED A REGION** and the App Service Plan is created in the same region as your webapp or you can completely rename your App Service Plan and hit the ***Create new*** button.
 
-More info here:  https://docs.microsoft.com/en-gb/azure/app-service/overview-hosting-plans
+![More info here on App Service Plans here](https://docs.microsoft.com/en-gb/azure/app-service/overview-hosting-plans)
 
 ![Create new App Service Plan](Assets/CreateNewAppServicePlan2.png)
 
