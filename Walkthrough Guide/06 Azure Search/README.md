@@ -6,16 +6,19 @@ Many applications use search as the primary interaction pattern for their custom
 We're going to add Azure Search to our project for searching the jobs. Right now we're using it in the most basic possible way, but we'll be expanding this later as the app grows in complexity. 
 
 ## Deploying Azure Search 
-
-![Search for Azure Search](Assets/SearchForSearch.png)
 Click the "Create a Resource" in the top-left menu bar. You'll then be able to search for 'Azure Search'. 
 
-![Azure Search Results](Assets/SearchResults.png)
+![Search for Azure Search](Assets/SearchForSearch.png)
+
 Select Azure Search and click 'Create'. 
 
+![Azure Search Results](Assets/SearchResults.png)
+
+You'll have a few options for pricing, but for this demo, we should have plenty of capacity left over if we use the ***Free tier***. Hit the ***Review + Create*** button.  Once you've deployed Azure Search, go to the resource 
 
 ![Azure Search Configure](Assets/ConfigureSearchService.png)
-You'll have a few options for pricing, but for this demo, we should have plenty of capacity left over if we use the ***Free tier***. Hit the ***Review + Create*** button.  Once you've deployed Azure Search, go to the resource 
+
+Once done you get to the Overview page.  
 
 ![Azure Search Overview](Assets/SearchOverview.png)
 
