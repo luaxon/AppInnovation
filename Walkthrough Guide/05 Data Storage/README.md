@@ -103,7 +103,7 @@ As we can see, a `contosomaintenance` database has been created with an empty `j
 
 #### 1.4.2 Add a new document manually
 
-Time to add our first job manually! Let's click the ***New Document*** button in the `jobs` collection and add a JSON document like the following one in the editor to add a dummy job that points to the Microsoft headquarter in Redmond.
+Time to add our first job manually! Let's click the ***New Item*** button in the `jobs` collection and add a JSON document like the following one in the editor to add a dummy job that points to the Microsoft headquarter in Redmond.
 
 ```json
 {
@@ -131,6 +131,9 @@ Time to add our first job manually! Let's click the ***New Document*** button in
 
 Once we hit ***Save***, we should be able to return to our API and fetch the list of jobs again. Now, the list should not be empty anymore but contain our new dummy job.
 
+![Fetch Dummy Job From Cosmos DB](Assets/apijob.png)
+
+If we used swagger to fetch the jobs then it would look like as follows:
 ![Fetch Dummy Job From Cosmos DB](Assets/FetchDummyJobFromCosmos.png)
 
 > **Tip:** To get well-formatted JSON in Google Chrome, you can use the [JSONView Plugin](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
@@ -152,16 +155,19 @@ For that, head over to the [Azure Portal](https://portal.azure.com), click the *
 
 ![Add a Storage Account in the Azure Portal](Assets/AddStorageAccount.png)
 
-Choose the following settings and hit the Create button to start provisioning the Storage Account.
+Choose the following settings and hit the Review _ Create button to validate and the Create button to start provisioning the Storage Account.
 
-- **ID:** myawesomestartupstorage
-- **Deployment model:** Resource manager
-- **Account kind:** Storage (general purpose v1)
-- **Performance:** Standard
-- **Replication:** Locally-redundant storage (LRS)
-- **Secure transfer required:** Disabled
+- **Subscription:** Use existing
 - **Resource Group:** Use existing
+- **Storage Account Name:** myawesomestartupstorage
 - **Location:** Same as your Web App
+- **Performance:** Standard
+- **Account kind:** Storage V2 (general purpose v2)
+- **Replication:** Locally-redundant storage (LRS)
+- **Access Tier:** Hot
+- **Secure transfer required:** Disabled
+
+![Storage Account Settings in the Azure Portal](StorageAccountCreateSettings.png)
 
 ### 2.2 Explore Azure Blob Storage
 
