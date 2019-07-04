@@ -6,23 +6,28 @@ As we are collecting and displaying different types of information like *Jobs*, 
 
 ## 1. Azure Cosmos DB for unstructured data
 
-Whenever it comes to unstructured data an NoSQL approaches in the Microsoft Azure ecosystem, Cosmos DB should be our database of choice. It is a globally-distributed, multi-model database service which makes it super flexible to use and extremely easy to scale to other regions.
+Whenever it comes to unstructured data a NoSQL approach in the Microsoft Azure ecosystem, Cosmos DB should be our database of choice. Azure Cosmos DB is Microsoft's globally distributed, multi-model database service. With a click of a button, Cosmos DB enables you to elastically and independently scale throughput and storage across any number of Azure regions worldwide. You can elastically scale throughput and storage, and take advantage of fast, single-digit-millisecond data access using your favorite API including SQL, MongoDB, Cassandra, Tables, or Gremlin. Cosmos DB provides comprehensive service level agreements (SLAs) for throughput, latency, availability, and consistency guarantees, something no other database service offers.
 
-Beside *Disk Space* and *Consistency*, Cosmos DB's main scale dimension is *Throughput*. For each collection, developers can reserve throughput for their data, which ensures the 99.99th percentile of latency for reads to under 10 ms and for writes to under 15 ms. Pre-reserved Throughput which is defined by request units (RUs) is mainly determining the price of a Cosmos DB instance. Fetching of a single 1KB document by id spends roughly 1 RU. You can use the [Cosmos DB capacity planner tool](https://www.documentdb.com/capacityplanner) to calculate, how many RUs your database might need.
+Besides *Disk Space* and *Consistency*, Cosmos DB's main scale dimension is *Throughput*. For each collection, developers can reserve throughput for their data, which ensures the 99.99th percentile of latency for reads to under 10 ms and for writes to under 15 ms. Pre-reserved Throughput which is defined by request units (RUs) is mainly determining the price of a Cosmos DB instance. Fetching of a single 1KB document by id spends roughly 1 RU. You can use the [Cosmos DB capacity planner tool](https://www.documentdb.com/capacityplanner) to calculate, how many RUs your database might need.
 
 ### 1.1 Create a Cosmos DB instance
 
-To create a new Cosmos DB instance in the [Azure Portal](https://portal.azure.com), click the ***New*** button in the top-left corner and find ***Azure Cosmos DB*** within the ***Databases*** section.
+To create a new Cosmos DB instance in the [Azure Portal](https://portal.azure.com), click the ***Create a resource*** button in the top-left corner and find ***Azure Cosmos DB*** within the ***Databases*** section, or search for it if it does not appear as a default.
 
-![Add new Cosmos DB from the Azure Portal](Assets/AddNewCosmosDb.png)
+![Add new Cosmos DB from the Azure Portal](Assets/AddNewCosmosDb2.png)
 
-Choose the following settings and hit the ***Create*** button to start provisioning the Cosmos DB instance.
+Choose the following settings and hit the ***Review + Create*** button to start provisioning the Cosmos DB instance.  We will not be configuring the network or tags in this lab.
 
-- **ID:** myawesomenewstartupdb
-- **API:** SQL
-- **Resouce Group:** Use existing
+- **Subscription:** Use same
+- **Resouce Group:** Use existing one we have been using for this lab
+- **Account Name:** myawesomenewstartupdb
+- **API:** Core (SQL)  
+- **Apache Spark Preview:** Not using in this lab
 - **Location:** Same as your Web App
 - **Enable geo-redundancy:** No (for now)
+- **Multi-region Writes:** No (for now)
+
+![Add new Cosmos DB from the Azure Portal](Assets/Reviewandcreatecosdmosdb.png)
 
 ### 1.2 Explore Cosmos DB
 
