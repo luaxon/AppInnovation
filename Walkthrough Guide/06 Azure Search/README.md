@@ -15,7 +15,7 @@ Select Azure Search and click 'Create'.
 
 
 ![Azure Search Configure](Assets/ConfigureSearchService.png)
-You'll have a few options for pricing, but for this demo, we should have plenty of capacity left over if we use the Free tier. Once you've deployed Azure Search, go to the resource 
+You'll have a few options for pricing, but for this demo, we should have plenty of capacity left over if we use the ***Free tier***. Once you've deployed Azure Search, go to the resource 
 
 ![Azure Search Overview](Assets/SearchOverview.png)
 
