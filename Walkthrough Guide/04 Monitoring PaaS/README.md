@@ -84,6 +84,7 @@ In the configuration specify:
 [Home](appinsights-0.md) | [Next](appinsights-2.md)
 
 ---
-### [Next Step: App Service Plans - API and Web Apps](.././04%20Web%20API)
+# Next Steps 
+[Data Storage](../../05%20Data%20Storage)
 
 

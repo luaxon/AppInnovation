@@ -164,7 +164,7 @@ Add the settings in the format `Settings__Key` (two underscores) and take the va
 
 ---
 # Next Steps 
-[Data Storage](../../05%20Data%20Storage)
+[Monitoring](.././04%20Monitoring%20PaaS)
 ---
 
 &nbsp;
