@@ -14,7 +14,7 @@ Besides *Disk Space* and *Consistency*, Cosmos DB's main scale dimension is *Thr
 
 To create a new Cosmos DB instance in the [Azure Portal](https://portal.azure.com), click the ***Create a resource*** button in the top-left corner and find ***Azure Cosmos DB*** within the ***Databases*** section, or search for it if it does not appear as a default.
 
-![Add new Cosmos DB from the Azure Portal](Assets/AddNewCosmosDb2.png)
+![Add new Cosmos DB from the Azure Portal](Assets/AddNewCosmosDB2.png)
 
 Choose the following settings:
 
