@@ -9,10 +9,11 @@ It's for the reason that we'll opt to use Platform as a Service (PaaS) as much a
  
 
 
-## Architecture
+## Reference Architecture
 This reference architecture shows a serverless web application. The application serves static content from Azure Blob Storage, and implements an API using Azure Functions. The API reads data from Cosmos DB and returns the results to the web app.
 ![Azure Serverlesss Architecture](Assets/serverless-web-app.png)
 
+## Our Architecture
 ![Azure Functions Architecture](Assets/WebAPI.png)
 Above you can see a high-level overview of our production architecture. Some key decisions: 
 

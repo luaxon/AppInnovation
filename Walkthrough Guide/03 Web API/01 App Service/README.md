@@ -103,7 +103,7 @@ Because my app name was: "myawesomestartupapi", the unique URL would be: `https:
 
 ## 2. Deploy your apps to App Service
 
-Azure App Service has many options for how to deploy our code. These include continuous integration, which can link to Visual Studio Team Services or GitHub. We could also use FTP to upload the project, but we like to make things easy, so we won't.
+Azure App Service has many options for how to deploy our code. These include continuous integration, which can link to Azure Devops or GitHub. We could also use FTP to upload the project, but we like to make things easy, so we won't.
 
 The good news is: The full ASP.NET Core WebAPI code for the backend logic is already written for us and is located in the `Backend/Monolithic` folder of the workshop. But before we can upload it to the cloud, we need to **compile** it.
 
