@@ -16,7 +16,7 @@ To create a new Cosmos DB instance in the [Azure Portal](https://portal.azure.co
 
 ![Add new Cosmos DB from the Azure Portal](Assets/AddNewCosmosDb2.png)
 
-Choose the following settings and hit the ***Review + Create*** button to start provisioning the Cosmos DB instance.  We will not be configuring the network or tags in this lab.
+Choose the following settings:
 
 - **Subscription:** Use same
 - **Resouce Group:** Use existing one we have been using for this lab
@@ -29,6 +29,8 @@ Choose the following settings and hit the ***Review + Create*** button to start 
 
 ![Add new Cosmos DB from the Azure Portal](Assets/Reviewandcreatecosdmosdb.png)
 
+Next hit the ***Review + Create*** button to validate your configurate and then hit ***Create*** to start provisioning the Cosmos DB instance.  We will not be configuring the network or tags in this lab.
+
 ### 1.2 Explore Cosmos DB
 
 After a few seconds, Azure should have created the database service and we can start exploring Cosmos DB by navigating to it in the Azure Portal.
@@ -37,15 +39,15 @@ After a few seconds, Azure should have created the database service and we can s
 
 #### 1.2.1 Scalability and Consistency
 
-As we can see from the ***Overview*** section, Azure Cosmos DB is all about scalability and availability. We get greeted by a map that shows us, which regions our data gets synchronized to and we can easily add and remove regions by selecting or deselecting them on the map or the ***Replicate data globally section*** in the side menu.
+As we can see from the ***Overview*** section, Azure Cosmos DB is all about scalability and availability. We get greeted by the monitoring tools in the overview section to be able to see the health for our database.  In the ***Replicate data globally section*** menu section, we are presented with a map that shows us which regions our data gets synchronized to and we can easily add and remove regions by selecting or deselecting them on the map.
 
 With scaling databases to multiple instances, *Consistency* immediately come to our minds. By default, Cosmos DB uses *Session consistency* but we can choose from five different [Consistency levels](https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels) in the ***Default Consistency*** menu, if we feel the need to change that.
 
-> **Hint:** Even when selecting multiple regions for Azure Cosmos DB, the connection string will always stay the same. That's a very nice feature, which allows your backend to not care about the location of your database at all. Cosmos DB has its own traffic manager that will route your query to the fastest location autimatically.
+> **Hint:** Even when selecting multiple regions for Azure Cosmos DB, the connection string will always stay the same. That's a very nice feature, which allows your backend to not care about the location of your database at all. Cosmos DB has its own traffic manager that will route your query to the fastest location automatically.
 
 #### 1.2.2 Security Keys
 
-Like every other database, Azure Cosmos DB offers security through access control using Keys. Head over to the ***Keys*** section of the data base to check your keys for different access levels (read-write and read-only) and connection strings. We will need these information later, when we connect the Cosmos DB to the Web API.
+Like every other database, Azure Cosmos DB offers security through access control using Keys. Head over to the ***Keys*** section of the data base to check your keys for different access levels (read-write and read-only) and connection strings. We will need this information later, when we connect the Cosmos DB to the Web API.
 
 #### 1.2.3 Data Explorer
 
