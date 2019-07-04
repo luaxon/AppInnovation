@@ -70,26 +70,29 @@ You need to create a _suggester_ called 'suggestions'. This is referred to by th
 
 Also note that at the moment the Suggester details aren't visible in the index once you've created (this is a shortcoming of the current Azure portal).
 
-Once you've completed this setup, click "Create an indexer". 
+Once you've completed this setup, click ***"Create an indexer"***. 
 
 ![Azure Search Create Updates](Assets/IndexerSchedule.png)
 You can now set the frequenancy at which Azure Search will look for new data. I recommend for this demo setting it to be 5 minutes. We can do this by selecting "custom". 
 
-![Azure Search Customer Timer](Assets/CustomTimer.png)
 We also want to track deletions, so go ahead and check the tickbox and select the 'isDeleted' item from the drop-down menu and set the marker value to "true". 
+
+![Azure Search Customer Timer](Assets/CustomTimer.png)
 
 You're now ready to click "Submit" which will create the indexer and importer for you. 
 
 ![Azure Search Indexers List](Assets/Indexers.png)
+
 Click on the "indexers" item within the overview blade. 
 
 ![Azure Search Indexers List](Assets/SelectIndexersTab.png)
 
 
 ![Azure Search Run Indexer](Assets/RunIndex.png)
-We can now run the indexer for the first time. Once its completed, navigate back to the Azure Search Overview and click on "Search Explorer". We can now confirm if the search service is working as expected. 
 
-![Azure Search Explorer](Assets/SearchExplorer.png)
+We can now run the indexer for the first time. Once its completed, navigate back to the Azure Search Overview and click on "Indexes". We can now confirm if the search service is working as expected. 
+
+![Azure Search Indexes  ](Assets/SearchExplorer.png)
 
 # Next Steps 
 [Functions & Cognitive Services](.././07%20Functions%20and%20Cognitive%20Services)
