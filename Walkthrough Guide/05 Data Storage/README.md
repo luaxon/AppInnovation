@@ -231,9 +231,9 @@ Similar to the Cosmos DB configuration above, the Web API backend project also m
 
 [View in project](/Backend/Monolithic/appsettings.json#L15-L20)
 
-Add the following secrets to your application as described in the according Secrets sections for App Services or Kubernetes.
+Add the following secrets to your application as described in the according Secrets sections for App Services.
 
-> **Hint:** Here you can find the [App Service Secrets](/Walkthrough%20Guide/03%20Web%20API/01%20App%20Service#use-secrets) and [ Kubernetes Secrets](/Walkthrough%20Guide/03%20Web%20API/02%20Kubernetes#use-secrets) sections.
+> **Hint:** Here you can find the [App Service Secrets](/Walkthrough%20Guide/03%20Web%20API/01%20App%20Service#use-secrets) section.
 
 - **`AzureStorage__StorageAccountName`:** Storage Account name (e.g. myawesomestartupstorage)
 - **`AzureStorage__Key`:** Key 1 key from the ***Access Keys*** section
