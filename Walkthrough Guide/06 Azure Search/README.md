@@ -29,7 +29,23 @@ To do this, click the "Import Data" button in the top toolbar.
 ![Azure Search Import Data](Assets/ImportData.png)
 
 ![Azure Search Connect To Data](Assets/ConnectToDataDefault.png)
+
+In the data source page, the source must be Cosmos DB, with the following specifications:
+
+- Name is the name of the data source object. Once created, you can choose it for other workloads.
+
+- Cosmos DB account should be the primary or secondary connection string from Cosmos DB, with an  AccountEndpoint and an AccountKey. The account determines whether data is cast as SQL API or Mongo DB API
+
+If the account does not appear in the list enter the following: AccountEndpoint=accountstring;AccountKey=accountkey
+
+- Database is an existing database from the account.
+
+- Collection is a container of documents. Documents must exist in order for import to succeed.
+
+- Query can be blank if you want all documents, otherwise you can input a query that selects a document subset.
+
 We already have our database deployed, so we can select "Cosmos DB" and then click "Select an account". 
+
 
 Once you've selected your Cosmos DB account, you should be able to use the drop-downs to select which database and collections you wish to import from. We'll be picking "Jobs". Skip the Add Cognitive Search (optional) and go to Customise Target Index Section.
 
@@ -40,6 +56,9 @@ Once you've selected your Cosmos DB account, you should be able to use the drop-
 The Index name must be set to "job-index", because it is referred to by name in the mobile application.
 
 We need to configure what data we wish to send back down to the device with a search query as well as which properties we'll use to search. The Index is difficult to modify (apart from adding new fields) after we've created it, so its always worth double checking the values.
+
+More info here:
+https://docs.microsoft.com/en-gb/rest/api/searchservice/create-index#bkmk_indexAttrib
 
 **Important**
 You need to create a _suggester_ called 'suggestions'. This is referred to by the _search_ API which we're writing. To do this, tick the 'suggester' box and enter 'suggestions' as its name. Then you also need to mark at least one field as being part of the suggester. We suggest(!) that the _Name_ and _Details_ fields are marked as such.
