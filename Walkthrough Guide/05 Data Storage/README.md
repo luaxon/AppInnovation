@@ -78,9 +78,9 @@ As these settings are empty, let's set them in the Web API's environment variabl
 
 #### 1.3.2 Add Connection Information to application secrets
 
-Add the following secrets to your application as described in the according Secrets sections for App Services or Kubernetes.
+Add the following secrets to your application as described in the according Secrets sections for App Services.
 
-> **Hint:** Here you can find the [App Service Secrets](/Walkthrough%20Guide/03%20Web%20API/01%20App%20Service#use-secrets) and [ Kubernetes Secrets](/Walkthrough%20Guide/03%20Web%20API/02%20Kubernetes#use-secrets) sections.
+> **Hint:** Here you can find the [App Service Secrets](/Walkthrough%20Guide/03%20Web%20API/01%20App%20Service#use-secrets).
 
 - **`AzureCosmosDb__Endpoint`:** Uri of the Cosmos DB instance
 - **`AzureCosmosDb__Key`:** Primary Key of the Cosmos DB instance
