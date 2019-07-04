@@ -139,19 +139,6 @@ Follow the process of selecting a Subscription and Web App to publish to, confir
 
 or
 
-<details><summary>Deploy a Docker container</summary><p>
-
-#### Create and use a Docker image
-
-Open the [Azure Portal](https://portal.azure.com) and navigate to your Docker based App Service, that you have created earlier. When you scroll down to the ***Container Settings*** on the left side, you can find a configuration for image sources (like Azure Container Registry or Docker Hub).
-
-![Select Container in App Service](Assets/SelectContainerAppService.png)
-
-Here we can connect to our Container Registry. Select our container and ***Save*** the settings. If you have created your own Azure Container Registry, use that one here. Otherwise, you can use the images from Docker Hub.
-
-> **Hint:** You can enable ***Continuous Deployment*** at the bottom of the Container Settings, to update the application automatically, when a new version of your container gets pushed to the Container Registry.
-
-</p></details>
 
 ### 2.2 Verify, your app is running
 
@@ -173,7 +160,7 @@ For Azure App Services, those secrets are placed securely and encrypted in the *
 
 ![Add App Service App Settings](Assets/AddAppServiceAppSettings.png)
 
-Navigate to the Web API App Service in the Azure Portal and open the ***Application settings*** from the menu on the left. Scroll down to the ***Application settings*** section and you will see a table where we can add settings to.
+Navigate to the Web API App Service in the Azure Portal and open the ***Configuration Section*** from the menu on the left. Scroll down to the ***Application settings*** section and you will see a table where we can add settings to.
 
 Add the settings in the format `Settings__Key` (two underscores) and take the values from the ***Keys*** section of your services. Hit ***Save*** at the top of the page once you are set.
 
@@ -185,7 +172,7 @@ Add the settings in the format `Settings__Key` (two underscores) and take the va
 
 ---
 # Next Steps 
-[Monitoring](.././04%20Monitoring%20PaaS)
+[Monitoring](../04%20Monitoring%20PaaS)
 ---
 
 &nbsp;
