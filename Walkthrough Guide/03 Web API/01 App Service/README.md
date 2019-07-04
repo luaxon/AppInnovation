@@ -49,7 +49,7 @@ In App Service, an app runs in an App Service plan. The App Service plan defines
 
 A new App Service Plan for our Web App,  is automatically generated in the ***App Service Plan*** field in the Web App Create wizard **AFTER YOU HAVE SELECTED A REGION** and the App Service Plan is created in the same region as your webapp or you can completely rename your App Service Plan and hit the ***Create new*** button.
 
-![More info here on App Service Plans here](https://docs.microsoft.com/en-gb/azure/app-service/overview-hosting-plans)
+[More info here on App Service Plans here](https://docs.microsoft.com/en-gb/azure/app-service/overview-hosting-plans)
 
 ![Create new App Service Plan](Assets/CreateNewAppServicePlan2.png)
 
@@ -103,11 +103,11 @@ Because my app name was: "myawesomestartupapi", the unique URL would be: `https:
 
 ## 2. Deploy your apps to App Service
 
-Azure App Service has many options for how to deploy our code. These include continuous integration, which can link to Visual Studio Team Services or GitHub. We could also use FTP to upload the project, but we're not animals, so we won't.
+Azure App Service has many options for how to deploy our code. These include continuous integration, which can link to Visual Studio Team Services or GitHub. We could also use FTP to upload the project, but we like to make things easy, so we won't.
 
 The good news is: The full ASP.NET Core WebAPI code for the backend logic is already written for us and is located in the `Backend/Monolithic` folder of the workshop. But before we can upload it to the cloud, we need to **compile** it.
 
-We can also create a Docker image for it or use the pre-built images, that can find on Docker Hub. Just as we discussed in the [previous module](../)!
+We can also create a Docker image for it or use the pre-built images, that you can find on Docker Hub. We are not doing this option today.
 
 <details><summary>Build and deploy a code package</summary><p>
 
