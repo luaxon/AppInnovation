@@ -57,7 +57,7 @@ Clicking ***Sku and size***, shows all the different options we have (it's a lot
 
 ![Select App Service Plan Sku and size](Assets/SelectAppServicePlanTier.png)
 
-The Sku and size tier and with it the size of your App Service can be changed later, when you need to scale-up the service. Once you have configured your app service plan, click ***Next Monitoring***.
+The Sku and size tier and with it the size of your App Service can be changed later, when you need to scale-up the service. 
 
 After you configured everything, the App Service Plan configuration should now look like this:
 
@@ -70,11 +70,25 @@ After you configured everything, the App Service Plan configuration should now l
 - **App Service plan:** *choose the right plan as shown earlier*
 - **Sku and size:** choose the Basic B1 sku under the Dev/Test Tier
 
-We are not done yet.  Next is Monitoring, Choose the automatically generated App Insights, or create new to select a different region.
+We are not done yet.  Once you have configured your app service plan, click ***Next Monitoring***.  Choose the automatically generated App Insights, or create new to select a different region.  Click on ***Next Tags*** once done. 
+
 - **Enable Application Insights:** Yes
 - **Application Insights Location:** *choose the closest one, or same region if you decided to create a new one*
 
-With all the configuration options set, hit "Review and Create" and review all the configuration settings for your webapp.  If you are happy hit "Review and Create" and hold tight. Once the deployment has finished, we should be able to navigate to our app through the browser and see a generic Azure landing page. The deployment of the new service can take a few minutes, but you can watch its progress in the "Bell" notification area in the toolbar. 
+![Enable App Insights](Assets/SelectAppInsights.png)
+
+You apply tags to your Azure resources giving metadata to logically organize them into a taxonomy. Each tag consists of a name and a value pair. For example, you can apply the name "Environment" and the value "Production" to all the resources in production.
+
+After you apply tags, you can retrieve all the resources in your subscription with that tag name and value. Tags enable you to retrieve related resources from different resource groups. This approach is helpful when you need to organize resources for billing or management.
+
+![Enable App Insights](Assets/CreatingTags.png)
+
+With all the configuration options set, hit "Review and Create" and review all the configuration settings for your webapp.  If you are happy hit "Review and Create" and hold tight. 
+![Enable App Insights](Assets/WebAppConfigurationSummary.png)
+
+Once the deployment has finished, we should be able to navigate to our app through the browser and see a generic Azure landing page. The deployment of the new service can take a few minutes, but you can watch its progress in the "Bell" notification area in the toolbar. 
+
+![Enable App Insights](Assets/Yourdeploymentiscomplete.png)
 
 Because my app name was: "myawesomestartupapi", the unique URL would be: `https://myawesomestartupapi.azurewebsites.net`. You should see something similar to the image below, when browsing it.
 
