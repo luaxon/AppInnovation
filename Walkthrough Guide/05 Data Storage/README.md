@@ -167,7 +167,7 @@ Choose the following settings and hit the Review _ Create button to validate and
 - **Access Tier:** Hot
 - **Secure transfer required:** Disabled
 
-![Storage Account Settings in the Azure Portal](StorageAccountCreateSettings.png)
+![Storage Account Settings in the Azure Portal](Assets/StorageAccountCreateSettings.png)
 
 ### 2.2 Explore Azure Blob Storage
 
