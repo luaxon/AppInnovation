@@ -39,8 +39,6 @@ In the data source page, the source must be Cosmos DB, with the following specif
 
 - Cosmos DB account should be the primary or secondary connection string from Cosmos DB, with an  AccountEndpoint and an AccountKey. The account determines whether data is cast as SQL API or Mongo DB API
 
-If the account does not appear in the list enter the following: AccountEndpoint=accountstring;AccountKey=accountkey
-
 - Database is an existing database from the account.
 
 - Collection is a container of documents. Documents must exist in order for import to succeed.
@@ -50,7 +48,11 @@ If the account does not appear in the list enter the following: AccountEndpoint=
 We already have our database deployed, so we can select "Cosmos DB" and then click "Select an account". 
 
 
-Once you've selected your Cosmos DB account, you should be able to use the drop-downs to select which database and collections you wish to import from. We'll be picking "Jobs". Skip the Add Cognitive Search (optional) and go to Customise Target Index Section.
+Once you've selected your Cosmos DB account, you should be able to use the drop-downs to select which database and collections you wish to import from. We'll be picking "Jobs". 
+If the account does not appear in the list enter the following: ***AccountEndpoint=accountstring;AccountKey=accountkey***
+Replace accountstring and accountkey with your Cosmos DB Connection String and Key.
+
+Skip the Add Cognitive Search (optional) and go to Customise Target Index Section.
 
 ![Azure Search Create Index](Assets/CreatingJobsIndex.png)
 
@@ -58,28 +60,31 @@ Once you've selected your Cosmos DB account, you should be able to use the drop-
 **Important Note**
 The Index name must be set to "job-index", because it is referred to by name in the mobile application.
 
-We need to configure what data we wish to send back down to the device with a search query as well as which properties we'll use to search. The Index is difficult to modify (apart from adding new fields) after we've created it, so its always worth double checking the values.
+We need to configure what data we wish to send back down to the device with a search query as well as which properties we'll use to search. ***The Index is difficult to modify (apart from adding new fields) after we've created it, so its always worth double checking the values.***
 
 More info here:
 https://docs.microsoft.com/en-gb/rest/api/searchservice/create-index#bkmk_indexAttrib
 
 **Important**
-You need to create a _suggester_ called 'suggestions'. This is referred to by the _search_ API which we're writing. To do this, tick the 'suggester' box and enter 'suggestions' as its name. Then you also need to mark at least one field as being part of the suggester. We suggest(!) that the _Name_ and _Details_ fields are marked as such.
+You need to create a _suggester_ called 'suggestions'. This is referred to by the _search_ API which we're writing. To do this, in the top section in the field 'Suggester name' box and enter 'suggestions' as its name. Then you also need to mark at least one field as being part of the suggester. We suggest(!) that the _Name_ and _Details_ fields are marked as such. (See image)
 
-Note that the screenshot above is slightly out of date, and the _Suggester_ is now presented as a checkbox on the main screen, rather than another tab. Also note that at the moment the Suggester details aren't visible in the index once you've created (this is a shortcoming of the current Azure portal).
+Also note that at the moment the Suggester details aren't visible in the index once you've created (this is a shortcoming of the current Azure portal).
 
-Once you've completed this setup, click "Create". 
+Once you've completed this setup, click "Create an indexer". 
 
 ![Azure Search Create Updates](Assets/IndexerSchedule.png)
 You can now set the frequenancy at which Azure Search will look for new data. I recommend for this demo setting it to be 5 minutes. We can do this by selecting "custom". 
 
 ![Azure Search Customer Timer](Assets/CustomTimer.png)
-We also want to track deletions, so go ahead and check the tickbox and select the 'isDelete' item from the drop-down menu and set the marker value to "true". 
+We also want to track deletions, so go ahead and check the tickbox and select the 'isDeleted' item from the drop-down menu and set the marker value to "true". 
 
-You're now ready to click "OK" which will create the indexer and importer for you. 
+You're now ready to click "Submit" which will create the indexer and importer for you. 
 
 ![Azure Search Indexers List](Assets/Indexers.png)
 Click on the "indexers" item within the overview blade. 
+
+![Azure Search Indexers List](Assets/SelectIndexersTab.png)
+
 
 ![Azure Search Run Indexer](Assets/RunIndex.png)
 We can now run the indexer for the first time. Once its completed, navigate back to the Azure Search Overview and click on "Search Explorer". We can now confirm if the search service is working as expected. 
