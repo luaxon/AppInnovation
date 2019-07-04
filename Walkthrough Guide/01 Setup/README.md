@@ -13,6 +13,7 @@ Please bring your own **Windows or Mac** laptop. To participate in this workshop
 - [Visual Studio Code](https://code.visualstudio.com/)
   - [Azure App Service Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice)
   - [Azure Functions Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
+    - [Azure App Insights Extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioOnlineApplicationInsights.application-insights)
 - [Postman](https://www.getpostman.com/)
 
 ### Recommended

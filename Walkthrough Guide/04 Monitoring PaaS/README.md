@@ -9,11 +9,6 @@ Michelle Azzopardi : 19th June 2019 - updated
 ![](Images/AppInsights.png)
 
 - [Part 1 - Create AppInsights instance](appinsights-1.md) ... this document
-- [Part 2 - Develop and deploy AppInsights enabled webapp](appinsights-2.md)
-- [Part 3 - Get insights on application](appinsights-3.md)
-- [Part 4 - Advanced Analytics](appinsights-4.md)  
-- [Part 5 - Availability Monitoring](appinsights-5.md)
-- [Part 6 - Usage Behaviour Analysis](appinsights-6.md)
 
 ## Create AppInsights instance
 
