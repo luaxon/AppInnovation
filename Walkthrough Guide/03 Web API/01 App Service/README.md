@@ -172,7 +172,7 @@ Add the settings in the format `Settings__Key` (two underscores) and take the va
 
 ---
 # Next Steps 
-[Monitoring](../04%20Monitoring%20PaaS)
+[Monitoring](../../04%20Monitoring%20PaaS)
 ---
 
 &nbsp;
